@@ -1,0 +1,174 @@
+
+Page 1 of 2
+Answer the question(s) on this page, and click Next to go to the next test page. Click Summary to see which questions you need to answer before submitting the test. Click Submit Test if you are ready to submit your test.
+Pre Training Assessment
+(Answer all questions in this section)
+Question 1 
+[1 Points]
+Which feature allows partners outside your company to read selected data from your account?
+Question 2 
+[1 Points]
+Which cache type runs on a 24 hour "clock"
+Question 3 
+[1 Points]
+Select two answers that describe Snowflake micro-partitions. Micro-Partitions: [Choose Two]
+(Choose all correct answers)
+Question 4 
+[1 Points]
+Which of the following are options when creating a Virtual Warehouse? [Choose two]
+(Choose all correct answers)
+Question 5 
+[1 Points]
+Which cache stores object definitions and statistics?
+Question 6 
+[1 Points]
+Fail-Safe is a seven-day history of data and is automatically available on which table types?
+Question 7 
+[1 Points]
+In the Snowflake container hierarchy, which container is represented as a URL? (for example:
+https://HJ54364.snowflakecomputing.com)
+Question 8 
+[1 Points]
+Named stages come in two varieties, what are they? [Choose Two]
+(Choose all correct answers)
+Question 9 
+[1 Points]
+Which of the following are Snowflake view types? [Choose Two]
+(Choose all correct answers)
+Question 10 
+[1 Points]
+Which of the following are Snowflake table types? [Choose 4]
+(Choose all correct answers)
+Question 11 
+[1 Points]
+Why might you want to keep your virtual warehouse running longer, rather than suspending it after one minute of idle time?
+Question 12 
+[1 Points]
+What is micro-partition pruning?
+Question 13 
+[1 Points]
+What are the names of the four Snowflake Editions? [Choose Four]
+(Choose all correct answers)
+Question 14 
+[1 Points]
+Which of the following terms are associated with the Compute Layer? [Choose one]
+(Choose all correct answers)
+Question 15 
+[1 Points]
+What is some of the information contained in the Query Profile? [Choose Three]
+(Choose all correct answers)
+Question 16 
+[1 Points]
+Where are two places that you can define the file format for a COPY INTO command? [Choose two]
+(Choose all correct answers)
+Question 17 
+[1 Points]
+Which of the following are true about Snowflake? [Choose Four]
+(Choose all correct answers)
+Question 18 
+[1 Points]
+You run a COPY INTO command to load 100 files into a table. You do not specify an ON_ERROR value. If there is an error loading one of the files, what happens?
+Question 19 
+[1 Points]
+On which of the following can Snowflake be installed? [Choose Two]
+(Choose all correct answers)
+Question 20 
+[1 Points]
+Which of the following terms describes Snowflake's Architecture?
+Question 21 
+[1 Points]
+Which of the following is not a layer in Snowflake Data Platform? [Choose two]
+(Choose all correct answers)
+Question 22 
+[1 Points]
+Which command would you use if you accidentally dropped a table?
+Question 23 
+[1 Points]
+To Increase the amount of storage in Snowflake you have to purchase additional compute nodes.
+Question 24 
+[1 Points]
+Which statements are true about Object relationships? [Choose Two]
+(Choose all correct answers)
+Question 25 
+[1 Points]
+Which feature enables Snowflake users to create Dev, Staging and QA environments quickly and without any additional costs?
+Question 26 
+[1 Points]
+Why is no warehouse started with the query 'SELECT COUNT(*) FROM mytable;'?
+Question 27 
+[1 Points]
+Snowflake compute costs depend on which of the following? [Choose Three]
+(Choose all correct answers)
+Question 28 
+[1 Points]
+A database in Snowflake can belong to multiple accounts
+Question 29 
+[1 Points]
+In a Snowflake account, an account can have two tables with same name provided both the tables belong to different databases.
+Question 30 
+[1 Points]
+Which of the following table type lasts only for a session?
+Question 31 
+[1 Points]
+Which table type persists until it is dropped, but is not covered by Fail-Safe?'
+Question 32 
+[1 Points]
+In order to support your data lake, the data must first be ingested into Snowflake.
+Question 33 
+[1 Points]
+Which of the following is THE default view type?
+Question 34 
+[1 Points]
+Which type of view actually runs the query when the view is defined?
+Question 35 
+[1 Points]
+Which type of view should you use to hide the underlying definition of the view from those with permission to use the view?
+Question 36 
+[1 Points]
+Which view would you use if performance was your primary concern?
+Question 37 
+[1 Points]
+Which layer is responsible for the availability of the Snowflake Data Platform?
+Question 38 
+[1 Points]
+Which layer is responsible for Query Optimization?
+Question 39 
+[1 Points]
+You share a table with a Consumer Account. Which of the following operations can the Consumer Account do with the shared data?
+Question 40 
+[1 Points]
+What is the typical size of a micro-partition in its compressed and optimized form?
+Question 41 
+[1 Points]
+How much more resources does a Large virtual warehouse have compared to a Medium virtual warehouse?
+Question 42 
+[1 Points]
+If you want to increase the performance of a complex query, which scaling strategy would work best?
+Question 43 
+[1 Points]
+If your strategy is to support more users, which will work best for you?
+Question 44 
+[1 Points]
+Which of the following methods allows you to access data that resides in a cloud provider's object store? [Choose two]
+(Choose all correct answers)
+Question 45 
+[1 Points]
+Which methods could you use to access data in a stage, without ingesting it into Snowflake? [Choose two]
+(Choose all correct answers)
+Question 46 
+[1 Points]
+Which of the following statements are true about SnowPipe?
+Question 47 
+[1 Points]
+Roles are granted to: [Choose two]
+(Choose all correct answers)
+Question 48 
+[1 Points]
+What does Snowflake Recommend for users granted access to the ACCOUNTADMIN role:
+Question 49 
+[1 Points]
+True/False: If a role is granted SELECT permission on a table, that role automatically gets USAGE on the database and schema that contain the table.
+Question 50 
+[1 Points]
+Snowflake will access fields in Semi-Structured data without regard to case sensitivity: Field1 is equivalent to FIELD1
+Page 1 of 2
