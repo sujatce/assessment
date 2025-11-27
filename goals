@@ -3,3 +3,19 @@ Goal: Learning
 Over the past year, I have invested a lot of time in building my technical skillset, and I want to continue that momentum. My goal is to deepen my hands-on expertise in Python, SQL, Snowflake, Alteryx, and API integrations, especially as our work increasingly depends on automation and scalable data processes. I also want to expand my understanding of Medicare and healthcare data—how member, provider, clinic, and gaps-in-care datasets connect, and how they influence quality measures and outreach decisions.
 
 Going forward, I want to apply what I learn to build better solutions for the team. Whether it is creating more efficient workflows in Alteryx, improving data validation logic, or supporting new features, I want to be someone the team can rely on for both technical knowledge and problem-solving. By staying curious, learning new technologies, and sharing what I learn, I hope to contribute to stronger, more accurate, and more impactful data products across our projects.
+
+
+
+Goal: develop expertise in data analysis and understand medicare data 
+
+Over the past year, I have been able to build a much stronger understanding of how Medicare data works and why it matters. I spent time learning how different datasets—such as member demographics, provider and clinic information, eligibility files, and gaps-in-care measures—connect and influence the decisions we make in outreach and quality programs. By working with these datasets more closely, I developed a clearer picture of how data flows through our processes, where common issues appear, and how to interpret these patterns in a meaningful way.
+
+This deeper understanding has helped me analyze trends more accurately and spot data quality issues early. It also helped me understand the stories behind the data—why a member might appear in a gap, why a provider is associated with certain measures, or how clinic-level information impacts outreach. I want to continue building on this knowledge so I can translate what I see in the data into insights that actually help the business. My goal is to use this growing Medicare domain knowledge to support better decision-making, improve the accuracy of the outputs we deliver, and add more value to Stars and quality-related projects.
+
+Gals : Lear and implement EPMP
+
+This year, I focused heavily on understanding EPMP end-to-end—not just how the API functions, but how the data flows, what each field represents, and how the preferences ultimately impact our outreach decisions. I took time to study the structure of EPMP responses, how contact information is organized, and how Do Not Contact preferences operate across different categories. This helped me understand, at a deeper level, why certain members should be excluded and how these rules protect both the business and the members.
+
+A major part of the work was building an automated Python script that could process more than 1.1 million MBIs reliably. I designed it to handle token management, retries, batching, and error classification without needing manual fixes.Throughout the project, I validated the accuracy of the responses, checked the data quality, and ensured the output files were clean, consistent, and usable for compliant outreach.
+
+One of the biggest benefits was the ability to identify and remove DNC/DNE members before the outreach lists were generated. This significantly improved the quality of our contact data and reduced compliance risk. By the end of the project, I felt confident in running the EPMP process, troubleshooting issues, and explaining the logic behind the results to others. Going forward, my goal is to continue improving the script and supporting the business as EPMP becomes a core part of our data pipelines.
