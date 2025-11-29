@@ -53,3 +53,120 @@ If you'd like, I can now:
 ✅ or tailor it for leadership-level visibility
 
 ChatGPT can make mistakes. Check importa
+
+
+Reflecting on the goals you had for this year, what were your key accomplishments?
+
+This year, I had the opportunity to work on several large and high-visibility projects that aligned closely with my goals around data accuracy, automation, and end-to-end process improvement. Each project allowed me to contribute directly to the quality, reliability, and scalability of our team’s data operations. Below are my key accomplishments across the core initiatives I supported.
+
+TITAN Project – End-to-End Data Migration Testing and Validation
+
+One of my major accomplishments this year was my contribution to the TITAN migration project. Even though the actual migration work was handled by another team, I was responsible for validating the integrity and completeness of the data after it was moved from SQL Server to Snowflake.
+
+I conducted detailed testing across multiple dimensions, including:
+
+Verifying table structures, schema layouts, column names, and data types
+
+Ensuring row counts and column counts matched between the source and target environments
+
+Performing in-depth field-level comparisons to confirm that sensitive and high-value data behaved consistently in Snowflake
+
+Identifying mismatches in metadata and discrepancies between environments and tracing them back to the exact root cause
+
+Collaborating with engineering and QA teams to ensure that corrections were implemented quickly and verified successfully
+
+This work strengthened the reliability of the overall migration and gave leadership confidence that the new Snowflake environment could support downstream processes without data loss or degradation. It also improved my ability to build structured validation frameworks and approach testing with a high level of attention to detail.
+
+EPMP Project – High-Volume API Automation and Scalable Workflow Design
+
+Another major accomplishment this year was the development of a fully automated and scalable workflow for the EPMP Preferences API. The goal was to process over 1.1 million MBI records within strict time constraints while ensuring complete accuracy and traceability.
+
+Key accomplishments in this project include:
+
+Designing and coding an asynchronous Python workflow capable of parallelizing API calls to handle extremely high volumes
+
+Implementing chunking logic, retry strategies, error categorization, and token refresh mechanisms
+
+Building detailed logs for business users, QA teams, and future audits
+
+Creating supporting documentation covering workflow logic, error handling, output file structures, and production monitoring steps
+
+Partnering with the business to define scheduling requirements and implementing the workflow to run three times per week through Alteryx Server
+
+Ensuring all 1.1M records were accounted for by validating counts across raw input files, output files, and error logs
+
+This project significantly improved the speed, quality, and consistency of the EPMP preference intake process. It also deepened my skills in large-scale API integration, asynchronous design patterns, and enterprise-level automation.
+
+Text/SMS Campaign – Automated SMS Manager Integration and Workflow Development
+
+In the Text/SMS campaign initiative, I collaborated closely with business partners to automate the entire phone handling and outbound messaging workflow using the SMS Manager API. This work required both technical implementation and cross-functional alignment.
+
+My accomplishments include:
+
+Designing and building the complete phone lifecycle automation: phone creation, phone lookup, program subscription, and sending SMS messages
+
+Developing logic to dynamically manage access tokens that expire every 30 minutes
+
+Creating reusable Python functions that standardize phone formats, attach metadata (GMPI_ID), and handle error cases
+
+Generating output logs that track phone creation, subscription results, and message delivery details
+
+Building two Alteryx workflows:
+
+Workflow 1: Load phone records into the SMS Opt-In Raw table
+
+Workflow 2: Match, validate, and load cleaned records from Raw into the final SMS Opt-In table
+
+Ensuring data quality by standardizing inconsistent phone numbers and resolving mismatches with existing system records
+
+Taking responsibility for delivering monthly short-code SMS sends from September to December
+
+This workstream improved the accuracy of SMS outreach, standardized how phone data flows into the platform, and automated processes that were previously manual and error-prone.
+
+New-to-Therapy (NTT) Automation – Weekly Refresh, Validation, and Table Enhancements
+
+I also contributed significantly to improving the New-to-Therapy (NTT) process. This work required both technical cleanup and logic improvement to support higher-quality reporting.
+
+Major accomplishments include:
+
+Automating the weekly refresh of the NTT table
+
+Validating incoming loads to ensure the data met business expectations
+
+Identifying and resolving mismatches between weekly data snapshots
+
+Designing and testing a new TEMP_NTT version of the table with:
+
+Primary key columns
+
+Audit columns (inserted date, updated date, updated by, etc.)
+
+Building logic to copy data from NTT into the enhanced TEMP_NTT table for validation and downstream use
+
+Running comparison scripts to ensure both tables were aligned and identifying discrepancies early
+
+Making the workflow easier to monitor and safer to refresh during weekly runs
+
+This work strengthened the reliability of the NTT dataset and improved the team’s ability to track changes over time with better transparency and accuracy.
+
+Overall Impact
+
+Across all projects, I consistently focused on accuracy, automation, and scaling our processes to support business needs. I strengthened my skills in SQL, Snowflake, Python, API design, and Alteryx, while also learning how to structure solutions that are maintainable and easy for others to use. My work this year contributed to:
+
+More reliable business reporting
+
+More automated and scalable workflows
+
+Stronger data quality across high-impact datasets
+
+Better alignment between technical teams and business stakeholders
+
+These accomplishments reflect my growth and the value I delivered across systems, workflows, and projects.
+
+If you want, I can now create:
+
+✅ a shorter version for the review form
+✅ a bullet-point version
+✅ a version written in a more formal or leadership tone
+
+ChatGPT
