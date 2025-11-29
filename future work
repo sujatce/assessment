@@ -67,6 +67,30 @@ Making the workflow easier to monitor and safer to refresh during weekly runs
 
 This work strengthened the reliability of the NTT dataset and improved the team’s ability to track changes over time with better transparency and accuracy.
 
+5. Gryphon, Reassigned, and Litigator Projects – Workflow Fixes and Automation
+
+I also worked on an important set of operational workflows related to Gryphon, Reassigned, and Litigator member segments.
+
+Key accomplishments:
+
+Gryphon Workflow
+
+The Gryphon workflow was missing key matching logic with the main member databases.
+
+I analyzed the issue, identified gaps in the member matching logic, and redesigned the matching workflow to ensure accurate alignment with the latest Report Month Member (RMM) list.
+
+This ensured that Gryphon members were correctly included/excluded based on up-to-date membership data.
+
+Reassigned & Litigator Workflows
+
+Streamlined and corrected the business rules behind these workflows.
+
+Updated logic to ensure that membership changes were reflected accurately in all downstream outputs.
+
+Identified inefficiencies and automated the entire workflow in Alteryx, significantly reducing manual overhead and improving reporting speed.
+
+These improvements strengthened operational accuracy and reduced dependency on manual data manipulation.
+
 Overall Impact
 
 Across all projects, I consistently focused on accuracy, automation, and scaling our processes to support business needs. I strengthened my skills in SQL, Snowflake, Python, API design, and Alteryx, while also learning how to structure solutions that are maintainable and easy for others to use. My work this year contributed to:
