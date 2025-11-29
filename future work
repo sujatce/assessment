@@ -1,62 +1,3 @@
-In the coming year, I want to deepen my technical skills and gain a stronger understanding of the systems and processes that support our campaigns. One of my main goals is to build hands-on expertise in Snowflake and complete the Snowflake certification so I can contribute more effectively to data migration and cloud-based projects. I also want to spend more time learning how our campaigns work end-to-end—the measures we track, how scope documents are created, and the business reasoning behind each step. Understanding the “why” behind the work will help me make better decisions and design solutions that directly support business needs.
-
-Another area I want to grow in is collaboration with the business. I want to get better at asking the right questions, gathering detailed requirements, and translating those into clear workflows or scripts. I also want to build more Alteryx workflows and automate more of the Python processes I use today, so that we can reduce manual effort and improve reliability. Overall, my focus for next year is to strengthen both the technical and business sides of my skill set so I can add more value and take on work with greater ownership and confidence.
-
-
-secong
-
-TITAN Migration Testing (Corrected & Improved)
-
-In the TITAN migration work, I played a key role in validating the transition from SQL Server to Snowflake, ensuring the data behaved exactly as expected after the conversion. The biggest challenge was making sure the converted tables were fully aligned with the original ones. I spent a significant amount of time comparing column metadata, row counts, datatypes, and testing whether key fields produced consistent results across both systems. There were instances where metadata didn’t match or values looked different between environments, and I had to dig into the root cause to make sure nothing slipped through.
-This work sharpened my attention to detail and reinforced the importance of thorough testing before signing off on any migration or production cutover.
-
-EPMP Large-Scale API Processing
-
-One of the most technically challenging tasks this year was the EPMP project, especially processing over 1.1 million MBIs within a tight processing window. Working at that scale required me to rethink how I design scripts. I implemented asynchronous API calls, chunking logic, proper token refresh mechanisms, and strong exception handling to keep the process stable.
-
-Along the way, I encountered several unpredictable issues — API timeouts, inconsistent error responses, missing data, and retries that needed to be managed correctly. Detailed logging and error categorization became essential to track progress and validate exactly how many members were successfully completed.
-Finishing the EPMP workflow strengthened my understanding of high-volume API operations and improved my ability to design scalable, resilient processes end-to-end.
-
-Text/SMS Campaign Integration
-
-The Text/SMS work combined both API integration and data engineering challenges. I worked with an external SMS Manager API, handled tokens that expired every 30 minutes, and built logic that could reliably create and subscribe phone numbers without failures.
-
-I also built two Alteryx workflows:
-
-The first loaded the incoming file into the SMS Opt-In Raw table.
-
-The second was more complex — it moved data from Raw into the final SMS Opt-In table while validating and matching members against existing records.
-
-Matching was particularly challenging because some phone numbers were formatted differently or member information didn’t align perfectly with what was already stored. I had to build logic to standardize values, identify mismatches, and ensure records were updated or inserted accurately without duplication.
-
-Additionally, I took ownership of sending the monthly short-code SMS messages from September through December, ensuring the messaging, target audience, and timing matched business expectations.
-
-This entire workstream deepened my understanding of member-level data, strengthened my API integration skills, and helped me build more reusable, scalable workflows.
-
-New-to-Therapy (NTT) Automation in Alteryx
-
-I also worked on automating the New-to-Therapy (NTT) process. The main challenge was refreshing the NTT table reliably, validating the incoming loads, and ensuring the logic aligned with business rules.
-
-I ran multiple test scenarios — including introducing a TEMP_NTT version — and created a process to copy and compare values between NTT and TEMP_NTT. This helped identify mismatches early and strengthened the overall stability of the workflow.
-
-This project taught me how to break a large, complex process into smaller testable components and validate transformations step-by-step, which significantly improved data quality and reduced rework.
-
-Summary
-
-Across all these projects, the challenges I worked through helped me become more structured and confident in my approach to building and testing data workflows. I strengthened my technical depth, problem-solving skills, and ability to work across multiple systems, tools, and APIs. Each project contributed to my growth and helped me deliver cleaner, more dependable solutions for the team.
-
-If you'd like, I can now:
-
-✅ shorten this for the review form
-✅ convert it to bullet points
-✅ make it more formal
-✅ or tailor it for leadership-level visibility
-
-ChatGPT can make mistakes. Check importa
-
-
-Reflecting on the goals you had for this year, what were your key accomplishments?
-
 This year, I had the opportunity to work on several large and high-visibility projects that aligned closely with my goals around data accuracy, automation, and end-to-end process improvement. Each project allowed me to contribute directly to the quality, reliability, and scalability of our team’s data operations. Below are my key accomplishments across the core initiatives I supported.
 
 TITAN Project – End-to-End Data Migration Testing and Validation
@@ -66,13 +7,9 @@ One of my major accomplishments this year was my contribution to the TITAN migra
 I conducted detailed testing across multiple dimensions, including:
 
 Verifying table structures, schema layouts, column names, and data types
-
 Ensuring row counts and column counts matched between the source and target environments
-
-Performing in-depth field-level comparisons to confirm that sensitive and high-value data behaved consistently in Snowflake
-
+Performing in-depth field-level comparisons to confirm that sensitive and high-value data behaved consistently in Snowflake.
 Identifying mismatches in metadata and discrepancies between environments and tracing them back to the exact root cause
-
 Collaborating with engineering and QA teams to ensure that corrections were implemented quickly and verified successfully
 
 This work strengthened the reliability of the overall migration and gave leadership confidence that the new Snowflake environment could support downstream processes without data loss or degradation. It also improved my ability to build structured validation frameworks and approach testing with a high level of attention to detail.
@@ -84,15 +21,10 @@ Another major accomplishment this year was the development of a fully automated 
 Key accomplishments in this project include:
 
 Designing and coding an asynchronous Python workflow capable of parallelizing API calls to handle extremely high volumes
-
 Implementing chunking logic, retry strategies, error categorization, and token refresh mechanisms
-
-Building detailed logs for business users, QA teams, and future audits
-
+Building detailed logs for business users, QA teams, and future audits/
 Creating supporting documentation covering workflow logic, error handling, output file structures, and production monitoring steps
-
 Partnering with the business to define scheduling requirements and implementing the workflow to run three times per week through Alteryx Server
-
 Ensuring all 1.1M records were accounted for by validating counts across raw input files, output files, and error logs
 
 This project significantly improved the speed, quality, and consistency of the EPMP preference intake process. It also deepened my skills in large-scale API integration, asynchronous design patterns, and enterprise-level automation.
@@ -104,24 +36,17 @@ In the Text/SMS campaign initiative, I collaborated closely with business partne
 My accomplishments include:
 
 Designing and building the complete phone lifecycle automation: phone creation, phone lookup, program subscription, and sending SMS messages
-
 Developing logic to dynamically manage access tokens that expire every 30 minutes
-
 Creating reusable Python functions that standardize phone formats, attach metadata (GMPI_ID), and handle error cases
-
 Generating output logs that track phone creation, subscription results, and message delivery details
-
 Building two Alteryx workflows:
 
 Workflow 1: Load phone records into the SMS Opt-In Raw table
-
 Workflow 2: Match, validate, and load cleaned records from Raw into the final SMS Opt-In table
-
 Ensuring data quality by standardizing inconsistent phone numbers and resolving mismatches with existing system records
-
 Taking responsibility for delivering monthly short-code SMS sends from September to December
 
-This workstream improved the accuracy of SMS outreach, standardized how phone data flows into the platform, and automated processes that were previously manual and error-prone.
+This workstream improved the accuracy of SMS outreach, standardized how phone data flows into the platform.
 
 New-to-Therapy (NTT) Automation – Weekly Refresh, Validation, and Table Enhancements
 
@@ -130,21 +55,14 @@ I also contributed significantly to improving the New-to-Therapy (NTT) process. 
 Major accomplishments include:
 
 Automating the weekly refresh of the NTT table
-
 Validating incoming loads to ensure the data met business expectations
-
 Identifying and resolving mismatches between weekly data snapshots
-
 Designing and testing a new TEMP_NTT version of the table with:
 
 Primary key columns
-
 Audit columns (inserted date, updated date, updated by, etc.)
-
 Building logic to copy data from NTT into the enhanced TEMP_NTT table for validation and downstream use
-
 Running comparison scripts to ensure both tables were aligned and identifying discrepancies early
-
 Making the workflow easier to monitor and safer to refresh during weekly runs
 
 This work strengthened the reliability of the NTT dataset and improved the team’s ability to track changes over time with better transparency and accuracy.
@@ -154,19 +72,8 @@ Overall Impact
 Across all projects, I consistently focused on accuracy, automation, and scaling our processes to support business needs. I strengthened my skills in SQL, Snowflake, Python, API design, and Alteryx, while also learning how to structure solutions that are maintainable and easy for others to use. My work this year contributed to:
 
 More reliable business reporting
-
 More automated and scalable workflows
-
 Stronger data quality across high-impact datasets
-
 Better alignment between technical teams and business stakeholders
 
 These accomplishments reflect my growth and the value I delivered across systems, workflows, and projects.
-
-If you want, I can now create:
-
-✅ a shorter version for the review form
-✅ a bullet-point version
-✅ a version written in a more formal or leadership tone
-
-ChatGPT
