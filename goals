@@ -22,6 +22,7 @@ One of the biggest benefits was the ability to identify and remove DNC/DNE membe
 
 goal : deliver quality first time, every time 
 
+
 One of my priorities this year was to make sure that every piece of work I delivered—whether it was a dataset, an analysis, or an API-based output—was accurate from the very first attempt. I focused heavily on validating my pipelines, double-checking the logic, and making sure the numbers made sense before sharing anything with the business. That meant doing my own completeness checks, reconciling counts, reviewing edge cases, and confirming that all business rules were followed correctly.
 
 Over time, this approach reduced the amount of back-and-forth rework and built confidence in the outputs I delivered. For example, when working on large files like the EPMP response data, I made sure every record was accounted for, all errors were categorized, and the business received clean, reliable results they could use immediately. My goal has consistently been to hand off work that doesn’t require revision—something that not only saves time but also strengthens trust in the data.
